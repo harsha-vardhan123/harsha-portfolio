@@ -1,0 +1,48 @@
+@import '../../app.scss';
+
+.skills-container {
+    margin: 120px;
+    padding-top: 110px;
+    position: relative;
+
+    @include mobile {
+        margin: 60px;
+        padding-top: 85px;
+    }
+
+
+
+
+
+
+
+}
+
+.skills-container h5 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+    @include mobile {
+        font-size: 32px;
+        margin-bottom: 10px;
+
+
+    }
+}
+
+
+.skills {
+
+    flex: 1;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2, 0.2fr);
+    margin-top: 20px;
+
+    @include mobile {
+        grid-gap: 35px;
+        margin-bottom: 5px;
+    }
+
+}
